@@ -15,9 +15,11 @@ export default function Home() {
         <h1 className={cn('text-6xl font-semibold text-white drop-shadow-md', font.className)}>🔐 Auth</h1>
         <p className="text-lg text-white">A Next.js starter with authentication</p>
         <div>
-          <Button variant="secondary" size="lg">
-            Sign in
-          </Button>
+          <LoginButton>
+            <Button variant="secondary" size="lg">
+              Sign in
+            </Button>
+          </LoginButton>
         </div>
       </div>
     </main>
